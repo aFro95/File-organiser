@@ -26,9 +26,9 @@ def organize_files(source_dir, destination_dir):
                 print(f"Skipping {file_name} (Unsupported file type)")
 
 # Source directory to organize
-source_directory = "D:\New Folder"
+source_directory = r"D:\New Folder"
 # Destination directory where organized files will be moved
-destination_directory = "D:\New Folder"
+destination_directory = r"D:\New Folder"
 # List of recognized file extensions
 extensions = {
     ".txt": "Text Files",
